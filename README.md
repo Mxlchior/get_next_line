@@ -4,6 +4,12 @@
 
 get_next_line is a C programming project whose goal is to implement a function that reads and returns a single line from a file descriptor each time it is called.
 
+This project introduces important concepts such as:
+
+	- Static variables
+	- File descriptors
+	- read/open
+
 The function must:
 
 	- Return a line ending with \n (when present) or NULL if there is nothing to read or if something went wrong
@@ -11,12 +17,6 @@ The function must:
 	- Work with different BUFFER_SIZE values
 	- Support reading from both files and standard input (stdin)
 	- Manage memory correctly without leaks
-
-This project introduces important concepts such as:
-
-- Static variables
-- File descriptors
-- read/open
 
 For the bonus part, get_next_line should manage multiple file descriptors at the same time
 
@@ -29,10 +29,10 @@ To compile the bonus version :
 
 📚 Resources
 
-	- "Termine et Push get_next_line en 3h" Video by suhulla : https://www.youtube.com/watch?v=jT9N8gY36Os
-	- "Comprendre get_next_line" Video by Nikito : https://www.youtube.com/watch?v=-Mt2FdJjVno
-	- Gitbook for 42 by Laura and Simon : https://42-cursus.gitbook.io/guide/1-rank-01/get_next_line
-	- AI (Gemini/GPT) was used for clarification of specific concepts and structuration of this README.md file.
+- "Termine et Push get_next_line en 3h" Video by suhulla : https://www.youtube.com/watch?v=jT9N8gY36Os
+- "Comprendre get_next_line" Video by Nikito : https://www.youtube.com/watch?v=-Mt2FdJjVno
+- Gitbook for 42 by Laura and Simon : https://42-cursus.gitbook.io/guide/1-rank-01/get_next_line
+- AI (Gemini/GPT) was used for clarification of specific concepts and structuration of this README.md file.
 
 🔨 Algorithm
 
