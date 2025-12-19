@@ -39,7 +39,9 @@ To compile the bonus version :
 The logic is divided into three steps using a static variable to persist data between calls:
 
 ft_read_and_stash: Reads from the FD in chunks of BUFFER_SIZE and joins them into the stash until a \n or EOF is reached.
+
 ft_extract_line: Isolates and returns the string from the start of the stash up to the first \n or to the end if there is none.
+
 ft_clean_stash: Deletes the extracted line from the stash, preserving only the "leftover" characters (if there are some) for the next function call.
 
 Bonus part:
