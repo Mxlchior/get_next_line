@@ -6,11 +6,11 @@ get_next_line is a C programming project whose goal is to implement a function t
 
 The function must:
 
-- Return a line ending with \n (when present) or NULL if there is nothing to read or if something went wrong
-- Handle files of any size
-- Work with different BUFFER_SIZE values
-- Support reading from both files and standard input (stdin)
-- Manage memory correctly without leaks
+	- Return a line ending with \n (when present) or NULL if there is nothing to read or if something went wrong
+	- Handle files of any size
+	- Work with different BUFFER_SIZE values
+	- Support reading from both files and standard input (stdin)
+	- Manage memory correctly without leaks
 
 This project introduces important concepts such as:
 
